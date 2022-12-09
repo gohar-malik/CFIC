@@ -1,0 +1,1 @@
+Files under this folder are used to analyze captions for counterfactuals with Gender manipulation, but not well organized now, since we do not analyze gender bias in the end.

@@ -1,0 +1,211 @@
+############################################################################################################
+#############                   instances with least bleu scores              ####################
+############################################################################################################
+
+COCO
+
+COCO_val2014_000000416343: orig captions: A group of people sitting next to each other holding surfboards.,
+                           coun captions: A boy and a girl posing with a fake surfboard., BLEU score: 9.269981669466712e-232
+COCO_val2014_000000170955: orig captions: The president of the United States walking on the steps of the White House.,
+                           coun captions: A man in a suit and tie standing in front of a white building., BLEU score: 9.418382295637229e-232
+COCO_val2014_000000344268: orig captions: The President of the United States is giving a speech.,
+                           coun captions: A man in a suit and tie holding up a napkin to a man in a suit and tie who is holding a napkin to his head., BLEU score: 9.50440384721771e-232
+COCO_val2014_000000003590: orig captions: A couple of men walking down a street holding umbrellas.,
+                           coun captions: Two people walking in the rain with umbrellas., BLEU score: 1.0032743411283238e-231
+COCO_val2014_000000198163: orig captions: A man working on a vase on a table.,
+                           coun captions: A display case filled with lots of different colored dishes., BLEU score: 1.0244914152188952e-231
+COCO_val2014_000000444927: orig captions: A young man is playing soccer on a grassy field.,
+                           coun captions: A person wearing a helmet and holding a frisbee., BLEU score: 1.1193096620723278e-231
+COCO_val2014_000000038710: orig captions: A child reaching for a piece of broccoli.,
+                           coun captions: a close up of a person holding a plate of broccoli and tomatoes                                                      , BLEU score: 1.1409851298103347e-231
+COCO_val2014_000000200939: orig captions: A boy and a girl are smiling at each other.,
+                           coun captions: A man standing next to a woman in front of a painting., BLEU score: 1.1640469867513693e-231
+COCO_val2014_000000049682: orig captions: A man in a white hat holding an umbrella.,
+                           coun captions: A picture of a person wearing a mask and a hat., BLEU score: 1.1896457329133973e-231
+COCO_val2014_000000453708: orig captions: A woman carrying a large load of bananas on her head.,
+                           coun captions: A group of people standing around a bunch of bananas., BLEU score: 1.2199981975731961e-231
+
+
+CC
+
+**********captions with least bleu scores****************
+COCO_val2014_000000252403: orig captions: this is what my toothbrush looks like when i brush it.,
+                           coun captions: how to draw a face with a pencil step by step., BLEU score: 0
+COCO_val2014_000000287550: orig captions: black and white photo of a man smoking a cigarette.,
+                           coun captions: digital art selected for the #., BLEU score: 0
+COCO_val2014_000000565670: orig captions: how to wear a tie with a bow tie.,
+                           coun captions: this man looks like he's permanently surprised., BLEU score: 0
+COCO_val2014_000000490381: orig captions: digital art selected for the #.,
+                           coun captions: a woman walks past a mural of a man with a face painted on it., BLEU score: 0
+COCO_val2014_000000351875: orig captions: busy traffic on the main road.,
+                           coun captions: motorcycles are a common mode of transport., BLEU score: 0
+COCO_val2014_000000351166: orig captions: my daughter's first breakfast of the day.,
+                           coun captions: i woke up to this face every morning., BLEU score: 0
+COCO_val2014_000000181574: orig captions: person with a slice of pizza.,
+                           coun captions: my husband and i at the dinner table., BLEU score: 0
+COCO_val2014_000000124803: orig captions: my son and i in the living room.,
+                           coun captions: a room full of toys., BLEU score: 0
+COCO_val2014_000000553709: orig captions: businessman drinking coffee in the office.,
+                           coun captions: portrait of a man with a moustache., BLEU score: 0
+COCO_val2014_000000101312: orig captions: i'm not sure if i 'll be able to get my head around this, but i'm pretty sure i 'll be able to get my head around it.,
+                           coun captions: this is what happens when you wake up in the middle of the night with your hands on your face., BLEU score: 0
+
+
+
+############################################################################################################
+#########                          instances with least SA scores                        ###################
+############################################################################################################
+
+*********for model trained by cc*************
+avg positive socres of Original captions       0.06192771084337348
+avg positive socres of Counterfactual captions 0.06157831325301204
+avg negative socres of Original captions       0.005756024096385542
+avg negative socres of Counterfactual captions 0.009391566265060242
+**********captions different most in SA postive scores****************
+COCO_val2014_000000473237: orig captions: a girl eats a slice of pizza.,
+                           coun captions: funny animals of the week, funny animal photo, cute animal pictures., diff score: 0.524
+COCO_val2014_000000108495: orig captions: i'm in love with these shoes!.,
+                           coun captions: how to make a hoodie out of a t - shirt., diff score: 0.473
+COCO_val2014_000000086800: orig captions: musical artist in a cobalt blue dress.,
+                           coun captions: i'm in love with this dress!., diff score: 0.473
+COCO_val2014_000000565670: orig captions: how to wear a tie with a bow tie.,
+                           coun captions: this man looks like he's permanently surprised., diff score: 0.468
+COCO_val2014_000000318138: orig captions: i'm not sure what this is, but it's pretty cool.,
+                           coun captions: how to make a wig out of a person's face., diff score: 0.461
+COCO_val2014_000000327601: orig captions: musical artist in a blue dress.,
+                           coun captions: i'm in love with this dress., diff score: 0.457
+COCO_val2014_000000373075: orig captions: person preparing a meal on the grill.,
+                           coun captions: funny animals of the week, funny animal photos, animal pictures., diff score: 0.42
+COCO_val2014_000000551336: orig captions: person enjoying a slice of pizza.,
+                           coun captions: person at the dinner table., diff score: 0.405
+COCO_val2014_000000336356: orig captions: person enjoying a slice of pizza.,
+                           coun captions: person with a slice of pizza., diff score: 0.405
+COCO_val2014_000000182245: orig captions: person enjoying a slice of pizza.,
+                           coun captions: a pizza in a restaurant., diff score: 0.405
+**********captions different most in SA negative scores****************
+COCO_val2014_000000473839: orig captions: portrait of a young man.,
+                           coun captions: day of the dead man., diff score: 0.518
+COCO_val2014_000000297074: orig captions: person with a hamburger and fries.,
+                           coun captions: i'm a sucker for a hamburger., diff score: 0.405
+COCO_val2014_000000475586: orig captions: i'm not sure if this is a sign of stress or a sign that i'm tired of my job.,
+                           coun captions: this is what my hair looks like right now., diff score: 0.324
+COCO_val2014_000000570471: orig captions: person preparing food in the kitchen.,
+                           coun captions: how to cook food in a pressure cooker., diff score: 0.239
+COCO_val2014_000000348162: orig captions: a man selling fruit and veg at an outdoor market.,
+                           coun captions: a man selling fruit and veg at a market stall., diff score: 0.167
+COCO_val2014_000000375461: orig captions: a man selling fruit and vegetables at a street market.,
+                           coun captions: a man stands in front of a fruit and vegetable stall., diff score: 0.153
+COCO_val2014_000000318138: orig captions: i'm not sure what this is, but it's pretty cool.,
+                           coun captions: how to make a wig out of a person's face., diff score: 0.094
+COCO_val2014_000000124766: orig captions: this is what i look like when i'm not wearing a bow tie.,
+                           coun captions: this man looks like he's having a hard time getting out of his car., diff score: 0.088
+COCO_val2014_000000037875: orig captions: black and white photograph of a little boy playing in the rain.,
+                           coun captions: i'm not sure if this is a boy or a girl, but it's pretty cool., diff score: 0.071
+COCO_val2014_000000040821: orig captions: i'm not sure what this is, but i'm pretty sure it's a pair of glasses.,
+                           coun captions: this is what i look like when i wake up in the middle of the night., diff score: 0.071
+
+
+
+*********for model trained by coco*************
+avg positive socres of Original captions       0.04039759036144578
+avg positive socres of Counterfactual captions 0.03462951807228915
+avg negative socres of Original captions       0.006692771084337348
+avg negative socres of Counterfactual captions 0.005280120481927711
+**********captions different most in SA postive scores****************
+COCO_val2014_000000344268: orig captions: The President of the United States is giving a speech.,
+                           coun captions: A man in a suit and tie holding up a napkin to a man in a suit and tie who is holding a napkin to his head., diff score: 0.394
+COCO_val2014_000000008532: orig captions: A man wearing a blue shirt and a red tie.,
+                           coun captions: A man with a hat and glasses smiling., diff score: 0.3
+COCO_val2014_000000133876: orig captions: A woman laying in a hospital bed smiling.,
+                           coun captions: A woman laying in a bed in a room., diff score: 0.3
+COCO_val2014_000000275754: orig captions: A young child holding a bunch of bananas.,
+                           coun captions: A young boy holding a banana in his hand., diff score: 0.286
+COCO_val2014_000000221232: orig captions: A man is holding a bird in his hand.,
+                           coun captions: A man wearing a mask while standing next to a white bird., diff score: 0.286
+COCO_val2014_000000461009: orig captions: A man holding an apple between his fingers.,
+                           coun captions: A man holding an orange in his right hand., diff score: 0.286
+COCO_val2014_000000161810: orig captions: A man is holding a sandwich in his hand.,
+                           coun captions: A man in a hat is holding a sandwich., diff score: 0.286
+COCO_val2014_000000305545: orig captions: A beautiful woman standing next to a man on a boat.,
+                           coun captions: A statue of a woman with a parasol in front of a body of water., diff score: 0.281
+COCO_val2014_000000519706: orig captions: A woman holding a bowl of bananas in her hand.,
+                           coun captions: A woman in a dress holding a bunch of bananas., diff score: 0.262
+COCO_val2014_000000239445: orig captions: A man holding a white frisbee in his right hand.,
+                           coun captions: A man holding a frisbee in front of his face., diff score: 0.262
+**********captions different most in SA negative scores****************
+COCO_val2014_000000416343: orig captions: A group of people sitting next to each other holding surfboards.,
+                           coun captions: A boy and a girl posing with a fake surfboard., diff score: 0.256
+COCO_val2014_000000075527: orig captions: A man cutting a pizza on top of a wooden cutting board.,
+                           coun captions: A man standing over a pan of food on top of a counter., diff score: 0.217
+COCO_val2014_000000246612: orig captions: A man sitting on top of a fire hydrant.,
+                           coun captions: A man wearing a costume sitting on top of a green suitcase., diff score: 0.214
+COCO_val2014_000000390731: orig captions: A young boy cutting into a Star Wars themed birthday cake.,
+                           coun captions: A young child cutting into a birthday cake., diff score: 0.186
+COCO_val2014_000000246629: orig captions: A woman is cutting bananas with a pair of scissors.,
+                           coun captions: A woman standing in front of a pile of ripe bananas., diff score: 0.143
+COCO_val2014_000000282942: orig captions: A woman cutting a cake on top of a table.,
+                           coun captions: A woman standing in front of a cake on a table., diff score: 0.133
+COCO_val2014_000000284764: orig captions: A man sitting at a table with a plate of food in front of him.,
+                           coun captions: A man cutting a piece of paper with a pair of scissors., diff score: 0.12
+COCO_val2014_000000013783: orig captions: A black and white photo of a man cutting a piece of paper.,
+                           coun captions: A black and white photo of a man with a pair of scissors., diff score: 0.111
+COCO_val2014_000000570471: orig captions: A woman is cutting a cake with a knife.,
+                           coun captions: A man cutting a cake on top of a cutting board., diff score: 0.07600000000000001
+COCO_val2014_000000176466: orig captions: A little girl standing next to a fire hydrant on the side of the street.,
+                           coun captions: A fire hydrant sitting on the side of a road., diff score: 0.065
+
+                           
+
+
+
+############################################################################################################
+#########                          instances with least STS scores                        ###################
+############################################################################################################
+
+**********captions with least STS scores****************
+
+ ######### coco ###############)
+COCO_val2014_000000335532:  orig captions: a close up of a person eating a banana
+
+                                                   ,
+                            coun captions: a close up of a person holding a hot dog in their hand                                                      ,  score: 0.07319828867912292
+COCO_val2014_000000344268:  orig captions: The President of the United States is giving a speech.,
+                            coun captions: A man in a suit and tie holding up a napkin to a man in a suit and tie who is holding a napkin to his head.,  score: 0.09267217665910721
+COCO_val2014_000000200939:  orig captions: A boy and a girl are smiling at each other.,
+                            coun captions: A man standing next to a woman in front of a painting.,  score: 0.11323970556259155
+COCO_val2014_000000368294:  orig captions: A woman working in a factory with a pair of scissors.,
+                            coun captions: A man that is sitting in front of a keyboard.,  score: 0.12899811565876007
+COCO_val2014_000000553667:  orig captions: a close up of a person biting into a sandwich                                                         ,
+                            coun captions: a close up of a person talking on a cell phone                                                        ,  score: 0.13824252784252167
+COCO_val2014_000000121519:  orig captions: A man is brushing his teeth with a blue toothbrush.,
+                            coun captions: A man holding a phone up to his face.,  score: 0.15060009062290192
+COCO_val2014_000000008532:  orig captions: A man wearing a blue shirt and a red tie.,
+                            coun captions: A man with a hat and glasses smiling.,  score: 0.16464143991470337
+COCO_val2014_000000444927:  orig captions: A young man is playing soccer on a grassy field.,
+                            coun captions: A person wearing a helmet and holding a frisbee.,  score: 0.17112980782985687
+COCO_val2014_000000262235:  orig captions: A woman talking on a cell phone next to a wall.,
+                            coun captions: A woman holding a Nintendo Wii game controller.,  score: 0.21425123512744904
+COCO_val2014_000000246612:  orig captions: A man sitting on top of a fire hydrant.,
+                            coun captions: A man wearing a costume sitting on top of a green suitcase.,  score: 0.22516857087612152
+
+ ######### cc ###############)
+COCO_val2014_000000473237:  orig captions: a girl eats a slice of pizza.,
+                            coun captions: funny animals of the week, funny animal photo, cute animal pictures.,  score: -0.14019526541233063
+COCO_val2014_000000373075:  orig captions: person preparing a meal on the grill.,
+                            coun captions: funny animals of the week, funny animal photos, animal pictures.,  score: -0.05934029072523117
+COCO_val2014_000000233815:  orig captions: person gets a hug from person.,
+                            coun captions: tourists ride an elephant during a safari.,  score: -0.02958807907998562
+COCO_val2014_000000081274:  orig captions: a little girl sitting at a table eating a bowl of salad.,
+                            coun captions: 4k happy little boy playing with his toys in the kitchen at home.,  score: 0.029028750956058502
+COCO_val2014_000000072770:  orig captions: tennis player in action against tennis player during the men's singles final match at the tennis tournament.,
+                            coun captions: digital art selected for the #.,  score: 0.038679394870996475
+COCO_val2014_000000101312:  orig captions: i'm not sure if i 'll be able to get my head around this, but i'm pretty sure i 'll be able to get my head around it.,
+                            coun captions: this is what happens when you wake up in the middle of the night with your hands on your face.,  score: 0.043168358504772186
+COCO_val2014_000000490529:  orig captions: person enjoys a cup of coffee.,
+                            coun captions: this is what i look like when i'm in the office.,  score: 0.05290205404162407
+COCO_val2014_000000287550:  orig captions: black and white photo of a man smoking a cigarette.,
+                            coun captions: digital art selected for the #.,  score: 0.054972562938928604
+COCO_val2014_000000221232:  orig captions: person with a bird of prey.,
+                            coun captions: person wears a mask to protect himself from the heat.,  score: 0.05612476170063019
+COCO_val2014_000000565670:  orig captions: how to wear a tie with a bow tie.,
+                            coun captions: this man looks like he's permanently surprised.,  score: 0.06352557241916656
