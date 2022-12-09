@@ -59,6 +59,27 @@ cd ...
 This will create json files for captions of both dark-skinned (original) and light-skinned (counterfactual) images, and save them in the `./captions/` dir.
 
 ## Step 5: Bias Measurement
+### Racial descriptor and Profane words detection, Sentimental Analysis, Bleu, and Semantic Texutal Simialrity are under the folder /analyze_captions/analyze_race
+To perform these analyses, modify the path of data to your own data (or with default path) and run the following commands:
+```bash
+cd analyze_captions/analyze_race
+
+# Racial descriptor and Profane words detection
+python check_racial_profane.py
+
+# Sentimental Analysis
+python SA_VADER.py              # this would output the average Positive scores and average Negative scores
+python SA_VADER_distribution.py # this would output the percentage of neutral captions
+
+# Bleu
+python BLEU.py
+
+# Semtimental Textual 
+python STS.py                   # the results of every pairs of captions would be write to STS_result.json
+python sort_STS_result.py       # sort the pairs with smallest STS scores
+```
+
+
 ### WEAT Analysis
 To perform WEAT Analysis, run the following commands and scripts, once you have generated the captions:
 ```bash
@@ -67,4 +88,4 @@ python -m spacy download en_core_web_trf
 python weat_analysis.py
 ```
 ## Acknowledgements
-This code is based on these repos: [Pytorch_Retinaface](https://github.com/biubug6/Pytorch_Retinaface), [STGAN](https://github.com/csmliu/STGAN), [CLIP_prefix_caption](https://github.com/rmokady/CLIP_prefix_caption), [enhanced-subject-verb-object-extraction](https://github.com/rock3125/enhanced-subject-verb-object-extraction). Special thanks to the authors.
+This code is based on these repos: [Pytorch_Retinaface](https://github.com/biubug6/Pytorch_Retinaface), [STGAN](https://github.com/csmliu/STGAN), [CLIP_prefix_caption](https://github.com/rmokady/CLIP_prefix_caption), [enhanced-subject-verb-object-extraction](https://github.com/rock3125/enhanced-subject-verb-object-extraction), [stargan](https://github.com/yunjey/stargan), [vaderSentiment](https://github.com/cjhutto/vaderSentiment), [fairseq](https://github.com/facebookresearch/fairseq) Special thanks to the authors.
