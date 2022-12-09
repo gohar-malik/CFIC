@@ -66,3 +66,5 @@ python -m spacy download en_core_web_sm
 python -m spacy download en_core_web_trf
 python weat_analysis.py
 ```
+## Acknowledgements
+This code is based on these repos: [Pytorch_Retinaface](https://github.com/biubug6/Pytorch_Retinaface), [STGAN](https://github.com/csmliu/STGAN), [CLIP_prefix_caption](https://github.com/rmokady/CLIP_prefix_caption), [enhanced-subject-verb-object-extraction](https://github.com/rock3125/enhanced-subject-verb-object-extraction). Special thanks to the authors.
