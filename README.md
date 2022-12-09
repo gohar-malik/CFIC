@@ -48,6 +48,18 @@ python data/attach_faces.py --root_dir <path to the root directory>
 ```
 This will create two new dirs, `stgan/val2014_dark_mod` and `stgan/val2014_dark_orig`. The dir ending in `mod`, has the counterfactual images, the dir ending in `orig` has the original images.
 
+We also use StarGAN, but the performance is not as good as STGAN. To run StarGAN, first download the weights follow the instruction from /StarGAN/readme.md. And put the input data in /StarGAN/data/{your data folder name}/{images001.jpg, images002.jpg, ...}, then run the following command:
+```bash
+python main.py --mode test --dataset {your data folder name} --image_size 128 --c_dim 5 \
+               --selected_attrs Black_Hair Blond_Hair Brown_Hair Male Young \
+               --model_save_dir='stargan_celeba_128/models' \
+               --result_dir='stargan_celeba_128/results'
+               
+# crop the images with gender manipulation
+python crop_image.py
+```
+Then the generated images will be in the /stargan_celeba_128/results
+
 ## Step 4: Generate Captions
 We ClipCap model from his [repo](https://github.com/rmokady/CLIP_prefix_caption) to generate captions. First download both pretrained models (trained on COCO and Conceptual Captions datasets) from the ClipCap repo, and place them in the `./CLIP_prefix_caption/pretrained_models` dir. Then run the following script to generate captions using both models:
 ```bash
