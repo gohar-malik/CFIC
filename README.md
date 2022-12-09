@@ -72,7 +72,7 @@ This will create json files for captions of both dark-skinned (original) and lig
 
 ## Step 5: Bias Measurement
 ### Racial descriptor and Profane words detection, Sentimental Analysis, Bleu, and Semantic Texutal Simialrity are under the folder /analyze_captions/analyze_race
-To perform these analyses, modify the path of data to your own data (or with default path) and run the following commands:
+To perform these analyses, upload your data to /captions_stgan_race (or with default path) and run the following commands:
 ```bash
 cd analyze_captions/analyze_race
 
